@@ -1,7 +1,6 @@
 .Button {
   width: 100px;
   height: 40px;
-  background-color: orange;
   border-radius: 5px;
   border: none;
   text-transform: uppercase;
@@ -9,10 +8,32 @@
 
 .Button:hover {
   cursor: pointer;
-  background-color: darkorange;
 }
 
 .Button:disabled {
   cursor: not-allowed;
+}
+
+.Orange {
+  background-color: orange;
+}
+
+.Orange:hover {
+  background-color: darkorange;
+}
+
+.Orange:disabled {
   background-color: orangered;
+}
+
+.LightBlue {
+  background-color: lightblue;
+}
+
+.LightBlue:hover {
+  background-color: blueviolet;
+}
+
+.LightBlue:disabled {
+  background-color: blue;
 }
