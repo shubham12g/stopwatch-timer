@@ -23,17 +23,27 @@
 }
 
 .Orange:disabled {
-  background-color: orangered;
+  background-color: #ccc;
 }
 
 .LightBlue {
-  background-color: lightblue;
+  background-color: blueviolet;
+  color: white;
 }
 
 .LightBlue:hover {
-  background-color: blueviolet;
+  background-color: blue;
 }
 
 .LightBlue:disabled {
-  background-color: blue;
+  background-color: #ccc;
+}
+
+.Red {
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+
+.Red:hover {
+  background-color: rgb(184, 0, 0);
 }
