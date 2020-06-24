@@ -1,5 +1,25 @@
 .Timer {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
   text-align: center;
   margin: auto;
   font-size: 400%;
+}
+
+.TimerButtons {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.TimerDiv {
+  width: 300px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
 }
